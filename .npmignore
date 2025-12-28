@@ -1,0 +1,53 @@
+# Source files
+credentials/**/*.ts
+nodes/**/*.ts
+!dist/**/*.js
+!dist/**/*.d.ts
+
+# Test files
+test/
+*.test.ts
+*.spec.ts
+coverage/
+.nyc_output/
+
+# Development configs
+.eslintrc.js
+.prettierrc
+tsconfig.json
+gulpfile.js
+jest.config.js
+
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Logs
+*.log
+npm-debug.log*
+
+# Scripts
+scripts/
+
+# Documentation source (keep compiled docs)
+docs/
+
+# Misc
+*.tmp
+*.temp
+.cache/
